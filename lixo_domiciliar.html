@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/img/icon.png">
+    <title>lixo Domiciliar</title>
+    <link rel="shortcut icon" href="fotos/icon.png">
+    <link rel="stylesheet" href="lixo_domiciliar.css">
+    <script src="https://kit.fontawesome.com/6bda94a8de.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+    <!--Header-->
+    <header>
+        <!--order 1-->
+        <div class="logos">
+            <img class="logoBgWhite" src="fotos/logo.png" alt="">
+            <img class="logoBgBlack" src="fotos/logo2.png" alt="">
+        </div>
+
+        <!--order 2-->
+        <nav id="menu">
+            <ul id="imenu-list" class="menu-list">
+                <li><a href="/pag_ind/lixo_verde.html">Sobre   nós</a></li>
+                <li><a href="/curiosidades/curiosidades.html">Curiosidades</a></li>
+                <li><a href="#">Campanhas</a></li>
+            </ul>
+            <script>
+
+                var menuButton = document.getElementById("menu-btn");
+                var menu = document.getElementById("menu");
+
+                menu.style.transition("2s");
+
+                function showmenu() {
+                    if (menu.style.display === "none") {
+                        menu.style.display = "block";
+                    } else {
+                        menu.style.display = "none";
+                    }
+                };
+
+            </script>
+        </nav>
+
+        <!--order 3-->
+        <div class="dark_btn">
+            <input type="checkbox" name="#" id="toggle" class="toggle-btn">
+            <label for="toggle" class="toggle-label" id="change">
+                <i id="sun" class="fa-solid fa-cloud-sun"></i>
+                <i id="moon" class="fa-solid fa-moon"></i>
+            </label>
+
+            <script>
+                const toggleBtn = document.getElementById('toggle');
+                const body = document.body;
+
+                toggleBtn.addEventListener('click', function () {
+                    body.classList.toggle('dark')
+                });
+            </script>
+        </div>
+
+        <!--order 4-->
+        <button onclick="showmenu()" id="menu-btn"><i class="fa-solid fa-water"></i></button>
+    </header>
+
+    <main id="top">
+
+        <div class="text12">
+            <h2>Lixo Domiciliar: O que caracteriza esse tipo de resíduo?</h2>
+
+            <div class="text1">
+                <img src="fotos/domiciliar.jfif" alt="" height="190px" width="300">
+
+                <p><strong>O lixo domiciliar</strong> é tudo aquilo que é produzido nas residências pelos
+                    humanos.
+                    como restos de alimentos, vidros quebrados, alumínios, plástico, papéis, fezes de animais.
+                    Por ser um lixo que mistura diversos lixos é difícil assegurar que 100% do lixo seja devidamente
+                    separado e reciclado, mas ainda assim é importante que haja reciclagem da grande parte desses
+                    resíduos. O lixo domiciliar tem coleta seletiva de lixo geralmente em alguns dias da semana.
+                    dependendo da região.
+                </p>
+
+
+            </div>
+
+
+            <p class="text2">
+                Caminhões de coleta passam nas ruas e recolhem os sacos de lixos deixados pelas pessoas, mas esse lixo
+                que é recolhido é dilacerado pelo caminhão e seu destino são aterros sanitários.
+                Esses aterros sanitários tem vida útil, e mesmo realizando uma preparação do solo, esses aterros poluem
+                o ar pela emissão de gases produzidos, o solo e podem atingir os lençóis freáticos contaminando assim a
+                água.
+            </p>
+
+
+
+            <div class="video1">
+                <iframe width="450" height="250" src="https://www.youtube.com/embed/VhiXDHNTX3k" title="Como fazer o descarte de lixo domiciliar" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+
+
+
+            <h2>Qual a importância de descartar o lixo domiciliar de maneira correta?</h2> <br><br>
+
+            <p class="text3">
+                <strong> Dados</strong>
+
+                do Panorama dos Resíduos Sólidos no Brasil 2020, a geração saiu de 66,7 milhões de toneladas em 2010
+                para 79,1 milhões em 2019, uma diferença de 12,4 milhões de toneladas. O mesmo estudo diz ainda que cada
+                brasileiro produz, em média, 379,2 kg de lixo por ano, o que corresponde a mais de 1 kg por dia. <span>(dados retirados do toda matéria Brasil)</span>
+            </p>
+
+
+            <div class="text4">
+                <p>
+                    Esses resíduos demoram muito tempo para se decompor, como vidros e plastico, por isso a melhor
+                    maneira de descartar o lixo doméstico é reciclando os resíduos que são produzidos e que podem ser
+                    descartado, como embalagens e restos de comida. alguns lixos não tem como reciclar como papel
+                    higiênico.
+                    Assim é a melhor forma de garantir que não haja tanta poluição e que o lixo domiciliar tera um fim
+                    adequado.
+                </p>
+
+
+
+                <img src="fotos/domiciliar2.jfif" alt="">
+
+            </div>
+
+
+
+
+
+        </div>
+       
+    </main>
+
+
+
+    <footer>
+        <img src="fotos/logo-limpo-ambiente.png" alt="" height="120px">
+        <hr>
+        <div class="tudo">
+            <div class="voltar">
+                <h3>Volte para:</h3>
+
+                <a href="#top">Topo&uarr;</a>
+                <a href="/index.html">Home</a>
+            </div>
+
+            <div class="referencias">
+                <h3>Referências da Página:</h3>
+                <a href="https://www.todamateria.com.br/lixo-domiciliar/">Referência um</a>
+                <a href="https://www.wwf.org.br/?77614/Como-reciclar-o-lixo-domestico">Referência dois</a>
+                <a href="https://prefeitura.poa.br/carta-de-servicos/coleta-domiciliar-de-residuos">Referência três</a>
+                <a href="https://sitesustentavel.com.br/lixo-domiciliar-o-que-e-e-quais-os-seus-tipos/">Referência quatro</a>
+            </div>
+
+            <div class="links_rapidos">
+                <h3>Links Rápidos</h3>
+                <a href="">Siga nosso linktree</a>
+                <a href="/pag_ind/main.html">Sobre nós</a>
+                <a href="#">Curiosidades</a>
+                <a href="#">Campanhas</a>
+            </div>
+        </div>
+
+        <p>&copy;2024 Desenvolvido por Limpo Ambiente</p>
+    </footer>
+
+
+
+
+
+</body>
