@@ -48,9 +48,7 @@ header {
     box-shadow: -1px -8px 40px #0000006e;
     height: 100px;
     background-color: #ffffffc6;
-
     backdrop-filter: blur(10px);
-
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -498,7 +496,7 @@ footer {
     header nav {
         text-align: center;
         font-size: 23px;
-        /* margin-bottom: 40px; */
+   
     }
 
     /*-----------------LOGOS-----------------*/
@@ -510,7 +508,6 @@ footer {
 
     #menu-btn {
         display: flex;
-        /* margin-bottom: 20px; */
         border: none;
         font-size: 25px;
         background-color: #f0f8ff00;
